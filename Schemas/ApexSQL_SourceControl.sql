@@ -1,0 +1,3 @@
+CREATE SCHEMA [ApexSQL_SourceControl]
+	AUTHORIZATION [dbo]
+GO
