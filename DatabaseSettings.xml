@@ -3,5 +3,5 @@
   <ServerVersion>Sql2008</ServerVersion>
   <ServerName>ALEX-PC\TEST2008</ServerName>
   <DatabaseName>Test</DatabaseName>
-  <DatabaseInformation Version="1" />
+  <DatabaseInformation Version="2" />
 </DatabaseSettings>
