@@ -8,7 +8,8 @@ CREATE TABLE [Purchasing].[ShipMethod] (
 		[ShipBase]         [money] NOT NULL,
 		[ShipRate]         [money] NOT NULL,
 		[rowguid]          [uniqueidentifier] NOT NULL ROWGUIDCOL,
-		[ModifiedDate]     [datetime] NOT NULL
+		[ModifiedDate]     [datetime] NOT NULL,
+		[test]             [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [Purchasing].[ShipMethod]
